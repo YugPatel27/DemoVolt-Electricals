@@ -6,7 +6,7 @@ export default function Terms() {
       <PageHero
         eyebrow="Legal"
         title="Terms of Use"
-        subtitle="By using this site you agree to the terms below. These terms are governed by the laws of India, jurisdiction Ahmedabad."
+        subtitle="This prototype uses fictional content and sample workflows."
       />
 
       <Section className="!py-10 max-w-3xl">
@@ -27,10 +27,10 @@ export default function Terms() {
             password confidential and for all activity that occurs under
             your account. Notify us immediately at{" "}
             <a
-              href="mailto:info@volampelektrikals.com"
+              href="#"
               className="underline text-[color:var(--orange)]"
             >
-              info@volampelektrikals.com
+              XX
             </a>{" "}
             if you suspect unauthorised access. We may suspend or terminate
             an account that we reasonably believe is being used fraudulently,
@@ -55,15 +55,12 @@ export default function Terms() {
           </p>
           <p>
             <strong className="text-[color:var(--maroon)]">Trademarks.</strong>{" "}
-            Finolex, KEI, Polycab, Bajaj, Hager, Schneider Electric, Legrand and
-            L&amp;T are trademarks of their respective owners. Volamp
-            Elektrikals is an authorised distributor and does not claim
-            ownership of these marks.
+            Product names and brands shown in this prototype are fictional
+            examples and do not represent real suppliers or endorsements.
           </p>
           <p>
             <strong className="text-[color:var(--maroon)]">Warranty.</strong>{" "}
-            All products carry the manufacturer's standard warranty. Volamp
-            Elektrikals facilitates warranty claims but is not the warrantor.
+            All products and warranty details shown are sample data only.
           </p>
           <p>
             <strong className="text-[color:var(--maroon)]">
@@ -85,7 +82,7 @@ export default function Terms() {
           </p>
           <p>
             <strong className="text-[color:var(--maroon)]">Liability.</strong>{" "}
-            To the fullest extent permitted by law, Volamp Elektrikals'
+            To the fullest extent permitted by law, DemoVolt Electricals'
             liability arising from use of this website is limited to the amount
             paid, if any, for the goods in question. We are not liable for
             indirect, incidental, or consequential loss arising from your use
@@ -93,7 +90,7 @@ export default function Terms() {
           </p>
           <p>
             <strong className="text-[color:var(--maroon)]">Indemnity.</strong>{" "}
-            You agree to indemnify Volamp Elektrikals against any claim or
+            You agree to indemnify DemoVolt Electricals against any claim or
             liability arising from your breach of these terms or your misuse
             of the site.
           </p>
@@ -101,9 +98,8 @@ export default function Terms() {
             <strong className="text-[color:var(--maroon)]">
               Governing law &amp; disputes.
             </strong>{" "}
-            These terms are governed by the laws of India. Any dispute
-            arising from your use of this site is subject to the exclusive
-            jurisdiction of the courts in Ahmedabad, Gujarat.
+            These prototype terms are not legal advice and do not establish a
+            real-world jurisdiction or commercial relationship.
           </p>
           <p>
             <strong className="text-[color:var(--maroon)]">Severability.</strong>{" "}

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "API server for the Volamp Elektrikals contact and bulk-quote forms.",
+  "description": "Prototype API server for DemoVolt Electricals contact and bulk-quote forms.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

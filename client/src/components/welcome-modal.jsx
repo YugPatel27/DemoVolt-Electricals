@@ -58,7 +58,7 @@ export function WelcomeModal() {
           <div className="relative min-h-[180px] md:min-h-full">
             <img
               src={heroImg}
-              alt="Volamp warehouse"
+              alt="DemoVolt warehouse"
               className="h-full w-full object-cover"
               loading="eager"
               decoding="async"
@@ -69,15 +69,15 @@ export function WelcomeModal() {
           <div className="p-5 md:p-6 flex flex-col justify-between">
             <div>
               <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-[color:var(--orange)]">
-                Welcome to Volamp
+                Welcome to DemoVolt
               </p>
 
               <h2 className="mt-1.5 font-display text-2xl font-bold text-[color:var(--maroon)] leading-snug">
-                Powering growth across Gujarat.
+                Powering fictional projects across Demo City.
               </h2>
 
               <p className="mt-2 text-xs text-foreground/75 leading-relaxed">
-                Volamp Elektrikals Private Limited is an authorised Ahmedabad
+                DemoVolt Electricals is a fictional prototype distributor in Demo City
                 distributor of eight leading electrical brands. We supply
                 contractors, builders, and retailers.
               </p>

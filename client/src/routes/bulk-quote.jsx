@@ -85,7 +85,7 @@ export default function BulkQuote() {
         : "Opening WhatsApp so you can send this directly…",
     );
 
-    const msg = `Bulk Quote Request — Volamp\n\nName: ${cleanValues.name}\nFirm: ${cleanValues.firm}\nPhone: ${cleanValues.phone}\nEmail: ${cleanValues.email || "—"}\nSite: ${cleanValues.site || "—"}\n\nBOM / Requirement:\n${cleanValues.bom}`;
+    const msg = `Bulk Quote Request — DemoVolt\n\nName: ${cleanValues.name}\nFirm: ${cleanValues.firm}\nPhone: ${cleanValues.phone}\nEmail: ${cleanValues.email || "—"}\nSite: ${cleanValues.site || "—"}\n\nBOM / Requirement:\n${cleanValues.bom}`;
     window.open(
       buildWhatsAppUrl(VOLAMP_WA, msg),
       "_blank",
@@ -102,7 +102,7 @@ export default function BulkQuote() {
     <>
       <PageHero
         eyebrow="For builders & procurement"
-        title="Bulk quotes on India's leading brands."
+        title="Bulk quotes on fictional demo brands."
         subtitle="Paste your BOM below or describe your requirement. We'll match brands, sizes and lead-time and reply with a quotation."
       />
 
@@ -143,7 +143,7 @@ export default function BulkQuote() {
                 value={form.phone}
                 onChange={handleFieldChange("phone")}
                 className={inputClass}
-                placeholder="+91 …"
+                placeholder="XX"
               />
             </label>
             <label className="grid gap-1 text-xs">
@@ -203,7 +203,7 @@ export default function BulkQuote() {
               >
                 Privacy Policy
               </a>{" "}
-              and consent to Volamp Elektrikals contacting me about this
+              and consent to DemoVolt Electricals contacting me about this
               request.
             </span>
           </label>

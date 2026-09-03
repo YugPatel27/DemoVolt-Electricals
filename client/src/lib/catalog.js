@@ -17,7 +17,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Armoured",
     group: "Armoured & CCTV",
-    brands: ["Finolex", "KEI", "Polycab"],
+    brands: ["DemoWire", "ArcLine", "BrightCore"],
     specs: "1C – 4C · 1.5 – 400 sqmm · LT / HT",
   },
   {
@@ -26,7 +26,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Comms",
     group: "Armoured & CCTV",
-    brands: ["Finolex", "Polycab", "Bajaj"],
+    brands: ["DemoWire", "BrightCore", "Circuita"],
     specs: "3+1 · 4+1 · copper conductor",
   },
   {
@@ -35,7 +35,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Comms",
     group: "Armoured & CCTV",
-    brands: ["Finolex", "Polycab"],
+    brands: ["DemoWire", "BrightCore"],
     specs: "RG-6 · RG-11 · RG-59",
   },
   {
@@ -44,7 +44,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Braided",
     group: "Braided & Fibre",
-    brands: ["KEI", "Polycab"],
+    brands: ["ArcLine", "BrightCore"],
     specs: "Tinned copper braid · shielded",
   },
   {
@@ -53,7 +53,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Armoured",
     group: "Braided & Fibre",
-    brands: ["Finolex", "KEI", "Polycab", "Bajaj"],
+    brands: ["DemoWire", "ArcLine", "BrightCore", "Circuita"],
     specs: "1C – 4C · 1.5 – 300 sqmm",
   },
   {
@@ -62,7 +62,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Comms",
     group: "Braided & Fibre",
-    brands: ["Polycab", "KEI"],
+    brands: ["BrightCore", "ArcLine"],
     specs: "SM / MM · 2 – 96 core",
   },
   {
@@ -71,7 +71,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "HT",
     group: "HT & House Wire",
-    brands: ["KEI", "Polycab"],
+    brands: ["ArcLine", "BrightCore"],
     specs: "11kV · 22kV · 33kV",
   },
   {
@@ -80,7 +80,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "House Wire",
     group: "HT & House Wire",
-    brands: ["Finolex", "KEI", "Polycab", "Bajaj"],
+    brands: ["DemoWire", "ArcLine", "BrightCore", "Circuita"],
     specs: "1 – 6 sqmm · FR / FRLS / ZHFR",
   },
   {
@@ -89,7 +89,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Telecom",
     group: "HT & House Wire",
-    brands: ["Finolex", "Polycab"],
+    brands: ["DemoWire", "BrightCore"],
     specs: "Jelly-filled telephone · 2 – 100 pair",
   },
   {
@@ -98,7 +98,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Comms",
     group: "LAN & Multicore",
-    brands: ["Finolex", "Polycab", "Bajaj"],
+    brands: ["DemoWire", "BrightCore", "Circuita"],
     specs: "CAT 5e · CAT 6 · CAT 6A",
   },
   {
@@ -107,7 +107,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Accessories",
     group: "LAN & Multicore",
-    brands: ["Polycab", "KEI"],
+    brands: ["BrightCore", "ArcLine"],
     specs: "Copper / brass · 1.5 – 400 sqmm",
   },
   {
@@ -116,7 +116,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Flexible",
     group: "LAN & Multicore",
-    brands: ["Finolex", "KEI", "Polycab", "Bajaj"],
+    brands: ["DemoWire", "ArcLine", "BrightCore", "Circuita"],
     specs: "2C – 24C · 0.5 – 16 sqmm",
   },
   {
@@ -125,7 +125,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Flexible",
     group: "Flexible & Solar",
-    brands: ["Finolex", "KEI", "Polycab", "Bajaj"],
+    brands: ["DemoWire", "ArcLine", "BrightCore", "Circuita"],
     specs: "0.5 – 240 sqmm · FR / FRLS",
   },
   {
@@ -134,7 +134,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Solar",
     group: "Flexible & Solar",
-    brands: ["Polycab", "KEI"],
+    brands: ["BrightCore", "ArcLine"],
     specs: "TUV · 4 / 6 / 10 sqmm · UV resistant",
   },
   {
@@ -143,7 +143,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Submersible",
     group: "Flexible & Solar",
-    brands: ["Finolex", "KEI", "Polycab"],
+    brands: ["DemoWire", "ArcLine", "BrightCore"],
     specs: "3C flat · 1.5 – 35 sqmm",
   },
   {
@@ -152,7 +152,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Telecom",
     group: "Comms & Winding",
-    brands: ["Finolex", "Polycab"],
+    brands: ["DemoWire", "BrightCore"],
     specs: "2 – 50 pair · indoor",
   },
   {
@@ -161,7 +161,7 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Winding",
     group: "Comms & Winding",
-    brands: ["Polycab", "Bajaj"],
+    brands: ["BrightCore", "Circuita"],
     specs: "Enamelled copper · SWG range",
   },
   {
@@ -170,12 +170,12 @@ export const CABLE_PRODUCTS = [
     division: "wires",
     category: "Welding",
     group: "Comms & Winding",
-    brands: ["KEI", "Polycab"],
+    brands: ["ArcLine", "BrightCore"],
     specs: "25 – 95 sqmm · rubber insulated",
   },
 ];
 
-export const CABLE_BRANDS = ["Finolex", "KEI", "Polycab", "Bajaj"];
+export const CABLE_BRANDS = ["DemoWire", "ArcLine", "BrightCore", "Circuita"];
 
 export const SWITCHGEAR_PRODUCTS = [
   {
@@ -184,7 +184,7 @@ export const SWITCHGEAR_PRODUCTS = [
     division: "switchgear",
     category: "Protection",
     group: "Protection",
-    brands: ["Hager", "Schneider Electric", "Legrand", "L&T"],
+    brands: ["GridPro", "Lumenix", "VoltEdge", "SafeCurrent"],
     specs: "SP · DP · TP · TP+N · 6 – 63 A",
   },
   {
@@ -193,7 +193,7 @@ export const SWITCHGEAR_PRODUCTS = [
     division: "switchgear",
     category: "Protection",
     group: "Protection",
-    brands: ["Hager", "Schneider Electric", "Legrand", "L&T"],
+    brands: ["GridPro", "Lumenix", "VoltEdge", "SafeCurrent"],
     specs: "16 – 1600 A · adjustable trip",
   },
   {
@@ -202,7 +202,7 @@ export const SWITCHGEAR_PRODUCTS = [
     division: "switchgear",
     category: "Protection",
     group: "Protection",
-    brands: ["Hager", "Schneider Electric", "Legrand", "L&T"],
+    brands: ["GridPro", "Lumenix", "VoltEdge", "SafeCurrent"],
     specs: "2P · 4P · 30 / 100 / 300 mA",
   },
   {
@@ -211,7 +211,7 @@ export const SWITCHGEAR_PRODUCTS = [
     division: "switchgear",
     category: "Distribution",
     group: "Distribution",
-    brands: ["Hager", "Schneider Electric", "Legrand", "L&T"],
+    brands: ["GridPro", "Lumenix", "VoltEdge", "SafeCurrent"],
     specs: "SPN · TPN · IP42 – IP65",
   },
   {
@@ -220,7 +220,7 @@ export const SWITCHGEAR_PRODUCTS = [
     division: "switchgear",
     category: "Distribution",
     group: "Distribution",
-    brands: ["Hager", "Schneider Electric", "L&T"],
+    brands: ["GridPro", "Lumenix", "SafeCurrent"],
     specs: "Manual · Auto · 63 – 630 A",
   },
   {
@@ -229,7 +229,7 @@ export const SWITCHGEAR_PRODUCTS = [
     division: "switchgear",
     category: "Control",
     group: "Control",
-    brands: ["Schneider Electric", "L&T"],
+    brands: ["Lumenix", "SafeCurrent"],
     specs: "9 – 300 A · AC / DC coil",
   },
   {
@@ -238,7 +238,7 @@ export const SWITCHGEAR_PRODUCTS = [
     division: "switchgear",
     category: "Modular",
     group: "Modular & Industrial",
-    brands: ["Schneider Electric", "Legrand"],
+    brands: ["Lumenix", "VoltEdge"],
     specs: "6 / 16 / 20 A · plates + accessories",
   },
   {
@@ -247,7 +247,7 @@ export const SWITCHGEAR_PRODUCTS = [
     division: "switchgear",
     category: "Industrial",
     group: "Modular & Industrial",
-    brands: ["Legrand", "Schneider Electric"],
+    brands: ["VoltEdge", "Lumenix"],
     specs: "16 – 125 A · 3P / 4P / 5P",
   },
   {
@@ -256,16 +256,16 @@ export const SWITCHGEAR_PRODUCTS = [
     division: "switchgear",
     category: "Enclosures",
     group: "Modular & Industrial",
-    brands: ["Hager", "Schneider Electric", "Legrand"],
+    brands: ["GridPro", "Lumenix", "VoltEdge"],
     specs: "Metal · polycarbonate · IP54 – IP66",
   },
 ];
 
 export const SWITCHGEAR_BRANDS = [
-  "Hager",
-  "Schneider Electric",
-  "Legrand",
-  "L&T",
+  "GridPro",
+  "Lumenix",
+  "VoltEdge",
+  "SafeCurrent",
 ];
 
 export const ALL_PRODUCTS = [...CABLE_PRODUCTS, ...SWITCHGEAR_PRODUCTS];
@@ -294,54 +294,52 @@ export function searchProducts(query) {
 }
 
 export const BRAND_INFO = {
-  Finolex: {
-    name: "Finolex",
-    site: "https://www.finolex.com",
-    blurb:
-      "Trusted Indian manufacturer of house wires, flexibles & industrial cables.",
+  DemoWire: {
+    name: "DemoWire",
+    site: "https://example.com/demowire",
+    blurb: "Fictional sample supplier of house wires and industrial cables.",
     division: "wires",
   },
-  KEI: {
-    name: "KEI",
-    site: "https://www.kei-ind.com",
-    blurb: "HT/LT power, control, instrumentation and specialty cables.",
+  ArcLine: {
+    name: "ArcLine",
+    site: "https://example.com/arcline",
+    blurb: "Fictional sample supplier of power and specialty cables.",
     division: "wires",
   },
-  Polycab: {
-    name: "Polycab",
-    site: "https://www.polycab.com",
-    blurb:
-      "One of India's largest manufacturers of wires, cables and FMEG products.",
+  BrightCore: {
+    name: "BrightCore",
+    site: "https://example.com/brightcore",
+    blurb: "Fictional sample supplier of wires and cable accessories.",
     division: "wires",
   },
-  Bajaj: {
-    name: "Bajaj",
-    site: "https://www.bajajelectricals.com",
-    blurb: "Domestic and industrial wires from a household Indian brand.",
+  Circuita: {
+    name: "Circuita",
+    site: "https://example.com/circuita",
+    blurb: "Fictional sample supplier of domestic and industrial wires.",
     division: "wires",
   },
-  Hager: {
-    name: "Hager",
-    site: "https://hager.com/in",
-    blurb: "German engineering — MCBs, RCCBs, DBs and modular wiring devices.",
+  GridPro: {
+    name: "GridPro",
+    site: "https://example.com/gridpro",
+    blurb: "Fictional sample supplier of protection and distribution gear.",
     division: "switchgear",
   },
-  "Schneider Electric": {
-    name: "Schneider Electric",
-    site: "https://www.se.com/in/en/",
-    blurb: "Global leader in low-voltage protection, distribution and control.",
+  Lumenix: {
+    name: "Lumenix",
+    site: "https://example.com/lumenix",
+    blurb: "Fictional sample supplier of low-voltage control products.",
     division: "switchgear",
   },
-  Legrand: {
-    name: "Legrand",
-    site: "https://www.legrand.co.in",
-    blurb: "Modular switches, sockets, DBs and premium wiring devices.",
+  VoltEdge: {
+    name: "VoltEdge",
+    site: "https://example.com/voltedge",
+    blurb: "Fictional sample supplier of modular wiring devices.",
     division: "switchgear",
   },
-  "L&T": {
-    name: "L&T Electrical",
-    site: "https://www.lntebg.com",
-    blurb: "Industrial switchgear, contactors, MCCBs and control gear.",
+  SafeCurrent: {
+    name: "SafeCurrent",
+    site: "https://example.com/safecurrent",
+    blurb: "Fictional sample supplier of industrial switchgear and control gear.",
     division: "switchgear",
   },
 };

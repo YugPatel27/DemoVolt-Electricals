@@ -124,14 +124,14 @@ export function PageHero({ eyebrow, title, subtitle }) {
 
 export function BrandStrip() {
   const brands = [
-    "Finolex",
-    "KEI",
-    "Polycab",
-    "Bajaj",
-    "Hager",
-    "Schneider Electric",
-    "Legrand",
-    "L&T",
+    "DemoWire",
+    "ArcLine",
+    "BrightCore",
+    "Circuita",
+    "GridPro",
+    "Lumenix",
+    "VoltEdge",
+    "SafeCurrent",
   ];
 
   // Duplicated so the track can loop seamlessly.
@@ -141,7 +141,7 @@ export function BrandStrip() {
     <div className="border-y bg-card overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 md:px-6 py-6">
         <p className="text-center text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground">
-          Authorized distributor for India's leading electrical brands
+          Demo range from fictional electrical brands
         </p>
 
         <div className="relative mt-4 overflow-hidden [mask-image:linear-gradient(90deg,transparent,black_8%,black_92%,transparent)]">
@@ -218,20 +218,20 @@ export function CtaBanner() {
 
           <p className="mt-1.5 text-xs md:text-sm text-white/90 max-w-xl leading-relaxed">
             Bulk pricing, verified brand-authentic stock, and delivery across
-            Ahmedabad and Gujarat.
+            Demo City and the surrounding region.
           </p>
         </div>
 
         <div className="flex flex-wrap gap-2.5 md:justify-end">
           <a
-            href="tel:+919512355502"
+            href="#"
             className="inline-flex items-center gap-2 rounded-lg bg-white px-4 py-2.5 text-xs font-bold text-[color:var(--maroon)] hover:bg-white/90 hover:scale-105 transition-all cursor-pointer shadow-sm"
           >
-            Call +91 95123 55502
+            Call XX
           </a>
 
           <a
-            href="https://wa.me/919512355502"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg border border-white/60 px-4 py-2.5 text-xs font-bold text-white hover:bg-white/10 hover:scale-105 transition-all cursor-pointer"

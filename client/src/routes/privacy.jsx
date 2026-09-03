@@ -6,20 +6,20 @@ export default function Privacy() {
       <PageHero
         eyebrow="Legal"
         title="Privacy Policy"
-        subtitle="Last updated: 26 July 2026. This policy explains how Volamp Elektrikals Private Limited collects and uses your information."
+        subtitle="Prototype policy. This page explains how DemoVolt Electricals sample data would be handled."
       />
 
       <Section className="!py-10 max-w-3xl">
         <Prose>
           <p>
-            This policy is written to comply with India's Digital Personal
-            Data Protection Act, 2023 ("DPDP Act") and applies to
-            volampelektrikals.com and any account you create with us.
+            This prototype policy describes sample handling of personal data
+            and applies to
+            demovolt.example and any demo account you create with us.
           </p>
 
           <h2>Who we are</h2>
           <p>
-            Volamp Elektrikals Private Limited ("we", "us") is the data
+            DemoVolt Electricals ("we", "us") is the fictional data
             fiduciary for the personal data described below. Our contact
             details are at the bottom of this page.
           </p>
@@ -96,10 +96,9 @@ export default function Privacy() {
           <h2>Retention</h2>
           <p>
             Enquiry and account information is retained for the duration of
-            the business relationship, and thereafter as required by Indian
-            tax and accounting law (typically 8 years for tax-relevant
-            records). Session security logs are periodically purged and are
-            not kept indefinitely.
+            the demo session. No real business relationship or tax record is
+            created by this prototype. Session security logs are periodically
+            purged and are not kept indefinitely.
           </p>
 
           <h2>Your rights</h2>
@@ -131,15 +130,15 @@ export default function Privacy() {
             resolve them within 30 days.
           </p>
           <p>
-            Grievance Officer, Volamp Elektrikals Private Limited
+            Grievance Officer, DemoVolt Electricals
             <br />
-            1753, Dhobi's Pole, Sir Chinubhai Road, Khadia, Ahmedabad 380001
+            XX
             <br />
             Email:{" "}
-            <a href="mailto:info@volampelektrikals.com">
-              info@volampelektrikals.com
+            <a href="#">
+              XX
             </a>{" "}
-            · Phone: +91 95123 55502
+            · Phone: XX
           </p>
 
           <h2>Changes to this policy</h2>
@@ -152,8 +151,7 @@ export default function Privacy() {
 
           <h2>Contact</h2>
           <p>
-            Volamp Elektrikals Private Limited, 1753 Dhobi's Pole, Sir Chinubhai
-            Road, Khadia, Ahmedabad 380001. Phone: +91 95123 55502.
+            DemoVolt Electricals, XX. Phone: XX.
           </p>
         </Prose>
       </Section>

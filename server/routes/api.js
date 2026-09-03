@@ -25,7 +25,7 @@ router.get("/health", (req, res) => {
   res.json({
     status: "ok",
     timestamp: new Date().toISOString(),
-    service: "Volamp Electricals API",
+    service: "DemoVolt Electricals Prototype API",
   });
 });
 
@@ -80,7 +80,7 @@ router.post(
     return res.json({
       success: true,
       message:
-        "Thank you for reaching out to Volamp Elektrikals. Our sales engineering team will respond within 24 hours.",
+        "Thank you for reaching out to DemoVolt Electricals. This prototype has recorded your sample enquiry.",
     });
   }),
 );

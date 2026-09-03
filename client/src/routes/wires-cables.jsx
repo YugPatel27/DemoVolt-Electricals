@@ -15,8 +15,8 @@ export default function WiresCables() {
     <>
       <PageHero
         eyebrow="Division 01 — Wires & Cables"
-        title="Every metre, every gauge — stocked in Ahmedabad."
-        subtitle="From single-core house wire to HT armoured cable, submersible, solar DC and communication cables — sourced directly from India's leading manufacturers."
+        title="Every metre, every gauge — shown in the demo catalogue."
+        subtitle="From single-core house wire to armoured, solar and communication cables — all products and suppliers are fictional sample data."
       />
 
       <Section className="border-t bg-card">

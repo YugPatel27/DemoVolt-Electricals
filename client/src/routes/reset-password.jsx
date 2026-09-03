@@ -45,7 +45,7 @@ export default function ResetPassword() {
       <PageHero
         eyebrow="Account"
         title="Set a new password."
-        subtitle="Choose a new password for your Volamp account."
+        subtitle="Choose a new password for your DemoVolt demo account."
       />
       <Section className="max-w-md">
         <div className="rounded-2xl border border-[color:var(--frame)]/40 bg-card p-6 md:p-8 shadow-xs">
@@ -72,7 +72,7 @@ export default function ResetPassword() {
                 onClick={() => navigate("/")}
                 className="mt-5 inline-flex items-center justify-center gap-2 rounded-lg brand-gradient px-4 py-2.5 text-xs font-bold text-white hover:opacity-95 cursor-pointer shadow-sm"
               >
-                Continue to Volamp
+                Continue to DemoVolt
               </button>
             </div>
           ) : (
@@ -133,7 +133,7 @@ export default function ResetPassword() {
                   to="/"
                   className="font-semibold text-[color:var(--orange)] hover:underline"
                 >
-                  Back to Volamp
+                  Back to DemoVolt
                 </Link>
               </p>
             </form>

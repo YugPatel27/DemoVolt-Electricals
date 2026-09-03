@@ -9,28 +9,28 @@ import { Reveal } from "../components/reveal";
 
 const PROJECTS = [
   {
-    title: "Residential tower fit-out, West Ahmedabad",
+    title: "Residential tower fit-out, Demo West",
     scope:
       "Housing wiring package — house wire, flexible cable, modular switches",
     tags: ["Cables", "Switchgear"],
   },
   {
-    title: "SME factory panel-build, Aslali",
+    title: "Sample factory panel-build, XX",
     scope: "Distribution boards, MCCBs and industrial sockets",
     tags: ["Switchgear"],
   },
   {
-    title: "Commercial showroom, Khadia",
+    title: "Commercial showroom, Demo Central",
     scope: "Full electrical retrofit with modular wiring devices",
     tags: ["Cables", "Switchgear"],
   },
   {
-    title: "Warehouse lighting, Sanand corridor",
+    title: "Warehouse lighting, Demo North corridor",
     scope: "LT power cabling and DB replacement",
     tags: ["Cables"],
   },
   {
-    title: "Retail chain rollout — Gujarat",
+    title: "Retail chain rollout — Demo Region",
     scope: "Repeatable BOM of modular switches and DBs across sites",
     tags: ["Switchgear"],
   },
@@ -47,7 +47,7 @@ export default function Projects() {
       <PageHero
         eyebrow="Projects"
         title="A snapshot of what we've supplied."
-        subtitle="Representative project supplies from across Ahmedabad and Gujarat. Client names withheld until published permissions are in."
+        subtitle="Fictional project examples created for this prototype website. No real clients or locations are represented."
       />
 
       <Section>

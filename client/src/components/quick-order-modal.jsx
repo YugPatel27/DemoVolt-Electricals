@@ -63,7 +63,7 @@ function Modal({ onClose }) {
     if (!cleanName) return setErr("Enter your name.");
     if (!isPhone(cleanPhone)) return setErr("Enter a valid phone number.");
 
-    const msg = `Quick Order — Volamp\n\nProduct: ${cleanProduct}\nSize / Gauge: ${cleanSize || "—"}\nMeters / Qty: ${cleanMeters}\n\nFrom: ${cleanName}\nPhone: ${cleanPhone}`;
+    const msg = `Quick Order — DemoVolt\n\nProduct: ${cleanProduct}\nSize / Gauge: ${cleanSize || "—"}\nMeters / Qty: ${cleanMeters}\n\nFrom: ${cleanName}\nPhone: ${cleanPhone}`;
 
     window.open(
       buildWhatsAppUrl(VOLAMP_WA, msg),
@@ -115,7 +115,7 @@ function Modal({ onClose }) {
               label="Product / Wire name"
               value={product}
               onChange={setProduct}
-              placeholder="e.g. Finolex House Wire 2.5 sqmm"
+              placeholder="e.g. DemoWire House Wire 2.5 sqmm"
               maxLength={120}
               required
             />
@@ -154,7 +154,7 @@ function Modal({ onClose }) {
                 value={phone}
                 onChange={setPhone}
                 type="tel"
-                placeholder="+91 …"
+                placeholder="XX"
                 maxLength={20}
                 required
               />

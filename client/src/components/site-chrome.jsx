@@ -48,13 +48,13 @@ export function BrandMark({ className = "" }) {
           className="font-display text-2xl font-bold tracking-tight"
           style={{ color: "var(--maroon)" }}
         >
-          Volamp
+          DemoVolt
         </span>
         <span
           className="text-[10px] font-semibold uppercase tracking-[0.2em]"
           style={{ color: "var(--orange)" }}
         >
-          Elektrikals
+          Electricals
         </span>
       </span>
     </Link>
@@ -313,18 +313,18 @@ export function SiteFooter() {
         <div>
           <div className="flex items-baseline gap-2">
             <span className="font-display text-xl font-bold text-white">
-              Volamp
+              DemoVolt
             </span>
             <span
               className="text-[10px] uppercase tracking-[0.2em]"
               style={{ color: "var(--orange)" }}
             >
-              Elektrikals
+              Electricals
             </span>
           </div>
           <p className="mt-2.5 text-white/70 leading-relaxed text-xs">
-            Volamp Elektrikals Private Limited — full-range distributor of
-            wires, cables, switchgear and electrical accessories in Gujarat.
+            DemoVolt Electricals — prototype catalogue for wires, cables,
+            switchgear and electrical accessories.
           </p>
         </div>
         <div>
@@ -355,8 +355,7 @@ export function SiteFooter() {
                 style={{ color: "var(--orange)" }}
               />
               <span>
-                1753, Dhobi's Pole, Sir Chinubhai Road, Khadia, Ahmedabad
-                380001
+                XX
               </span>
             </li>
             <li className="flex gap-2">
@@ -365,10 +364,10 @@ export function SiteFooter() {
                 style={{ color: "var(--orange)" }}
               />
               <a
-                href="tel:+919512355502"
+                href="#"
                 className="hover:text-[color:var(--orange)] transition-colors"
               >
-                +91 95123 55502
+                XX
               </a>
             </li>
             <li className="flex gap-2">
@@ -377,10 +376,10 @@ export function SiteFooter() {
                 style={{ color: "var(--orange)" }}
               />
               <a
-                href="mailto:info@volampelektrikals.com"
+                href="#"
                 className="hover:text-[color:var(--orange)] transition-colors"
               >
-                info@volampelektrikals.com
+                XX
               </a>
             </li>
           </ul>
@@ -424,7 +423,7 @@ export function SiteFooter() {
             </li>
             <li>
               <a
-                href="https://heyzine.com/flip-book/3f385cd761.html"
+                href="https://example.com/demo-catalogue"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[color:var(--orange)] transition-colors"
@@ -444,7 +443,7 @@ export function SiteFooter() {
                 Connect:
               </span>
               <a
-                href="https://linkedin.com/company/volamp-elektrikals"
+                href="https://example.com/demovolt-linkedin"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon social-icon--linkedin inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white cursor-pointer"
@@ -453,7 +452,7 @@ export function SiteFooter() {
                 <Linkedin className="social-icon__glyph h-3.5 w-3.5" />
               </a>
               <a
-                href="https://facebook.com/volampelektrikals"
+                href="https://example.com/demovolt-facebook"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon social-icon--facebook inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white cursor-pointer"
@@ -462,7 +461,7 @@ export function SiteFooter() {
                 <Facebook className="social-icon__glyph h-3.5 w-3.5" />
               </a>
               <a
-                href="https://instagram.com/volampelektrikals"
+                href="https://example.com/demovolt-instagram"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon social-icon--instagram inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white cursor-pointer"
@@ -471,7 +470,7 @@ export function SiteFooter() {
                 <Instagram className="social-icon__glyph h-3.5 w-3.5" />
               </a>
               <a
-                href="https://twitter.com/volampelektrikals"
+                href="https://example.com/demovolt-social"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon social-icon--twitter inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white cursor-pointer"
@@ -485,7 +484,7 @@ export function SiteFooter() {
                 Prototype website
               </span>
               <span className="block mt-1">
-                © {new Date().getFullYear()} Volamp Elektrikals Private Limited.
+                © {new Date().getFullYear()} DemoVolt Electricals.
                 All rights reserved.
               </span>
             </div>

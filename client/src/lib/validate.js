@@ -27,8 +27,9 @@ export const isGSTIN = (v) =>
 
 export function buildWhatsAppUrl(phone, message) {
   const clean = phone.replace(/\D/g, "");
+  if (!clean) return "#";
   const text = encodeURIComponent(sanitize(message, 1800));
   return `https://wa.me/${clean}?text=${text}`;
 }
 
-export const VOLAMP_WA = "919512355502";
+export const VOLAMP_WA = "XX";

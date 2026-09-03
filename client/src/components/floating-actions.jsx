@@ -180,7 +180,7 @@ function CartDrawer({ onClose }) {
             `${idx + 1}. ${entry.title}${entry.brand ? ` — ${entry.brand}` : ""} × ${entry.quantity}`,
         )
         .join("\n");
-      const msg = `Cart Enquiry — Volamp\n\n${lines}\n\nFrom: ${cleanName}\nPhone: ${cleanPhone}`;
+      const msg = `Cart Enquiry — DemoVolt\n\n${lines}\n\nFrom: ${cleanName}\nPhone: ${cleanPhone}`;
       window.open(
         buildWhatsAppUrl(VOLAMP_WA, msg),
         "_blank",
@@ -298,7 +298,7 @@ function CartDrawer({ onClose }) {
                   <input
                     maxLength={20}
                     required
-                    placeholder="+91…"
+                    placeholder="XX"
                     type="tel"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
@@ -360,7 +360,7 @@ export function FloatingActions() {
 
         {/* WhatsApp */}
         <a
-          href="https://wa.me/919512355502"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Chat on WhatsApp"

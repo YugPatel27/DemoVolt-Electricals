@@ -135,7 +135,7 @@ export function GlobalSearch({ compact = false }) {
               <PackageSearch className="mb-2 h-7 w-7 text-foreground/30" />
               <p className="text-sm font-medium">No products found</p>
               <p className="text-xs mt-0.5">
-                Try "house wire", "MCB", "Finolex"…
+                Try "house wire", "MCB", "DemoWire"…
               </p>
             </div>
           ) : (

@@ -13,9 +13,9 @@ export default function About() {
   return (
     <>
       <PageHero
-        eyebrow="About Volamp"
-        title="Powering Ahmedabad's electrical trade, one project at a time."
-        subtitle="Volamp Elektrikals Private Limited is a full-range distributor of electrical wires, cables, switchgear and accessories, serving contractors, builders, industry and retailers across Gujarat."
+        eyebrow="About DemoVolt"
+        title="Powering Demo City's electrical trade, one prototype at a time."
+        subtitle="DemoVolt Electricals is a fictional full-range distributor of electrical wires, cables, switchgear and accessories for this prototype website."
       />
 
       <Section>
@@ -24,23 +24,20 @@ export default function About() {
             <Eyebrow>Our story</Eyebrow>
             <H2>A trade counter that grew into a full-range distributor.</H2>
             <p className="mt-3 text-xs md:text-sm text-foreground/75 leading-relaxed font-medium">
-              Volamp began at a modest counter on Sir Chinubhai Road in Khadia,
-              serving Ahmedabad's electricians with the wires and switches they
-              needed, the same day they needed them. Over the years, that trade
-              counter grew — first into a full-range wires & cables distributor
-              with Finolex, KEI, Polycab and Bajaj, and then into a serious
-              switchgear house with Hager, Schneider Electric, Legrand and L&T.
+              DemoVolt began as a fictional trade counter in Demo City, created
+              to demonstrate a catalogue and enquiry experience. Its sample
+              range includes DemoWire, ArcLine, BrightCore and Circuita cables,
+              alongside GridPro, Lumenix, VoltEdge and SafeCurrent switchgear.
             </p>
             <p className="mt-2.5 text-xs md:text-sm text-foreground/75 leading-relaxed font-medium">
-              Today we operate from two locations — the original Khadia counter
-              and a fulfilment warehouse in Aslali — supporting projects across
-              Gujarat with authentic, brand-authorised stock.
+              The prototype presents two fictional locations and sample stock
+              flows for contractors, builders, industry and retailers.
             </p>
           </div>
           <div className="order-1 lg:order-2 overflow-hidden rounded-2xl border border-[color:var(--frame)]/40 shadow-md">
             <img
               src={storefrontImg}
-              alt="Interior of Volamp Elektrikals showroom"
+              alt="Interior of DemoVolt showroom"
               loading="lazy"
               className="w-full aspect-[16/10] object-cover"
             />
@@ -54,7 +51,7 @@ export default function About() {
             <div>
               <Eyebrow>Mission</Eyebrow>
               <p className="mt-2.5 font-display text-xl md:text-2xl text-[color:var(--maroon)] italic leading-snug">
-                To be Ahmedabad's most reliable single source for wires, cables
+                To be Demo City's most reliable fictional source for wires, cables
                 and switchgear — with the range, the paperwork and the
                 counter-team to back it up.
               </p>
@@ -62,7 +59,7 @@ export default function About() {
             <div>
               <Eyebrow>Vision</Eyebrow>
               <p className="mt-2.5 font-display text-xl md:text-2xl text-[color:var(--maroon)] italic leading-snug">
-                A Gujarat where every electrical contractor and project can
+                A demo region where every electrical contractor and project can
                 count on brand-authentic supply, on time, at fair trade prices.
               </p>
             </div>
@@ -78,11 +75,11 @@ export default function About() {
           </div>
           <BulletList
             items={[
-              "Authorised dealer relationships with 8 of India's leading electrical brands",
-              "Two Ahmedabad locations — a Khadia counter and an Aslali warehouse",
+              "Sample dealer relationships with 8 fictional electrical brands",
+              "Two Demo City locations — a trade counter and a sample warehouse",
               "Both product divisions in depth — cables AND switchgear, never one as an afterthought",
               "Direct-from-brand sourcing with invoices and warranty on request",
-              "Same-day dispatch within Ahmedabad; next-day across Gujarat on in-stock lines",
+              "Sample dispatch timelines for local and regional prototype orders",
               "Volume pricing for contractors, builders and sub-dealers",
             ]}
           />

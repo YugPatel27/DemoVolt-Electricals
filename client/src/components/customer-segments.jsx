@@ -27,7 +27,7 @@ const SEGMENTS = [
   {
     icon: RotateCcw,
     title: "Existing Customers",
-    desc: "Fast reorder, your known Volamp contact, service requests.",
+    desc: "Fast reorder, a saved demo contact, and service requests.",
     to: "/contact",
     cta: "Reorder / support",
   },

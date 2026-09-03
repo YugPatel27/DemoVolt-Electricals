@@ -31,7 +31,7 @@ export default function ChannelPartner() {
       return setErr("Enter a valid phone number.");
     if (cleanValues.gstin && !isGSTIN(cleanValues.gstin))
       return setErr("Enter a valid GSTIN or leave it blank.");
-    const msg = `Channel Partner Application — Volamp\n\nName: ${cleanValues.name}\nFirm: ${cleanValues.firm}\nGSTIN: ${cleanValues.gstin || "—"}\nCity: ${cleanValues.city}\nPhone: ${cleanValues.phone}\n\nMessage: ${cleanValues.message || "—"}`;
+    const msg = `Channel Partner Application — DemoVolt\n\nName: ${cleanValues.name}\nFirm: ${cleanValues.firm}\nGSTIN: ${cleanValues.gstin || "—"}\nCity: ${cleanValues.city}\nPhone: ${cleanValues.phone}\n\nMessage: ${cleanValues.message || "—"}`;
     window.open(
       buildWhatsAppUrl(VOLAMP_WA, msg),
       "_blank",
@@ -48,8 +48,8 @@ export default function ChannelPartner() {
     <>
       <PageHero
         eyebrow="Channel partner program"
-        title="Stock Volamp brands. Grow with us."
-        subtitle="Retailers and sub-dealers across Gujarat can apply to carry Volamp's authorised brand range with wholesale terms."
+        title="Stock demo brands. Explore the workflow."
+        subtitle="Retailers and sub-dealers can test this fictional partner application with sample details."
       />
 
       <Section className="max-w-3xl">
@@ -109,7 +109,7 @@ export default function ChannelPartner() {
                 value={form.phone}
                 onChange={handleFieldChange("phone")}
                 className={inputClass}
-                placeholder="+91 …"
+                placeholder="XX"
               />
             </label>
           </div>

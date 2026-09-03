@@ -30,18 +30,18 @@ export default function Home() {
             className="animate-fade-up"
             style={{ animationDuration: "800ms" }}
           >
-            <Eyebrow>Ahmedabad · Est. distributor</Eyebrow>
+            <Eyebrow>Demo City · Prototype distributor</Eyebrow>
             <h1 className="mt-3 font-display text-4xl md:text-6xl font-bold text-[color:var(--maroon)] leading-[1.05] tracking-tight">
               Wires, cables & switchgear —{" "}
               <span className="brand-text-gradient">
-                from India's most trusted brands.
+                from fictional demo brands.
               </span>
             </h1>
             <p className="mt-4 max-w-xl text-sm md:text-base text-foreground/75 leading-relaxed font-medium">
-              Volamp Elektrikals is an authorized full-range distributor of
-              Finolex, KEI, Polycab, Bajaj wires & cables and Hager, Schneider
-              Electric, Legrand and L&amp;T switchgear. Contractor pricing,
-              verified stock, and one-tap contact.
+              DemoVolt Electricals is a fictional full-range distributor of
+              DemoWire, ArcLine, BrightCore and Circuita wires & cables plus
+              GridPro, Lumenix, VoltEdge and SafeCurrent switchgear. Prototype
+              stock, sample pricing and one-tap contact.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <Link
@@ -51,17 +51,17 @@ export default function Home() {
                 Request a Quote
               </Link>
               <a
-                href="tel:+919512355502"
+                href="#"
                 className="inline-flex items-center gap-2 rounded-lg border border-[color:var(--maroon)] px-4 py-2.5 text-xs font-bold text-[color:var(--maroon)] hover:bg-[color:var(--maroon)]/5 transition-colors"
               >
-                <Phone className="h-3.5 w-3.5" /> Call +91 95123 55502
+                <Phone className="h-3.5 w-3.5" /> Call XX
               </a>
             </div>
             <dl className="mt-8 grid grid-cols-3 gap-4 max-w-md">
               {[
                 { value: "8", label: "Brand partners" },
                 { value: "2,000+", label: "SKUs stocked" },
-                { value: "2", label: "Locations, Ahmedabad" },
+                { value: "2", label: "Demo locations" },
               ].map((stat) => (
                 <div key={stat.label}>
                   <dt className="font-display text-3xl font-bold text-[color:var(--maroon)]">
@@ -88,14 +88,14 @@ export default function Home() {
               <div className="col-span-2 overflow-hidden rounded-2xl border border-[color:var(--frame)]/60 bg-white shadow-xl relative group">
                 <img
                   src={heroImg}
-                  alt="Volamp Warehouse"
+                  alt="DemoVolt warehouse"
                   className="w-full h-full object-cover aspect-[21/9] lg:absolute lg:inset-0 transition-transform duration-700 group-hover:scale-105"
                   fetchpriority="high"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                 <div className="absolute bottom-3 left-4 right-4">
                   <h3 className="text-lg font-display font-bold text-white tracking-wide">
-                    Aslali Warehouse
+                    Demo City Warehouse
                   </h3>
                   <p className="text-white/80 text-xs mt-0.5">
                     Deep inventory. Fast dispatch.
@@ -173,7 +173,7 @@ export default function Home() {
               img={wiresImg}
               eyebrow="Division 01"
               title="Wires & Cables"
-              brands="Finolex · KEI · Polycab · Bajaj"
+              brands="DemoWire · ArcLine · BrightCore · Circuita"
               copy="House wire, flexible, armoured, submersible, solar DC, LAN, coaxial, welding cables and more."
               to="/wires-cables"
             />
@@ -182,7 +182,7 @@ export default function Home() {
               img={switchgearImg}
               eyebrow="Division 02"
               title="Switchgear & Accessories"
-              brands="Hager · Schneider · Legrand · L&T"
+              brands="GridPro · Lumenix · VoltEdge · SafeCurrent"
               copy="MCBs, MCCBs, RCCBs, distribution boards, isolators, contactors and modular wiring devices."
               to="/switchgear"
             />
@@ -197,7 +197,7 @@ export default function Home() {
             <Reveal>
               <div>
                 <Eyebrow>Who we serve</Eyebrow>
-                <H2>Ahmedabad's electrical trade counter.</H2>
+                <H2>Demo City's electrical trade counter.</H2>
                 <p className="mt-3 text-sm text-foreground/70 leading-relaxed font-medium">
                   Whether you're wiring a single flat or a factory, our counter
                   is set up to move you through fast — with the right SKU, the
@@ -221,19 +221,19 @@ export default function Home() {
                   A note from our team
                 </p>
                 <blockquote className="mt-2 font-display text-lg md:text-xl text-[color:var(--maroon)] leading-snug">
-                  "We stock what Ahmedabad's contractors actually ask for — not
-                  just what looks good on a catalogue. Walk in with a spec, walk
-                  out with the goods."
+                  "This prototype shows how a trade counter could present a
+                  useful range of products. Explore a spec, submit a sample
+                  request, and test the ordering flow."
                 </blockquote>
                 <p className="mt-3 text-xs font-semibold text-muted-foreground">
-                  — Volamp Counter Team, Khadia
+                  — DemoVolt Prototype Team
                 </p>
                 <div className="mt-5 flex items-center gap-4 pt-3 border-t border-[color:var(--frame)]/20">
                   <AnimatedLink to="/about" className="text-xs">
-                    About Volamp
+                    About DemoVolt
                   </AnimatedLink>
                   <AnimatedLink
-                    to="https://heyzine.com/flip-book/3f385cd761.html"
+                    to="https://example.com/demo-catalogue"
                     external
                     className="text-xs"
                   >

@@ -11,8 +11,8 @@ import { Reveal } from "../components/reveal";
 import { BRAND_INFO } from "../lib/catalog";
 import { AnimatedLink } from "../components/animated-link";
 
-const CABLES = ["Finolex", "KEI", "Polycab", "Bajaj"];
-const SWG = ["Hager", "Schneider Electric", "Legrand", "L&T"];
+const CABLES = ["DemoWire", "ArcLine", "BrightCore", "Circuita"];
+const SWG = ["GridPro", "Lumenix", "VoltEdge", "SafeCurrent"];
 
 function BrandCard({ name, to }) {
   const brandInfo = BRAND_INFO[name];
@@ -66,8 +66,8 @@ export default function Brands() {
     <>
       <PageHero
         eyebrow="Authorized Distributor"
-        title="India's leading electrical brands, in stock."
-        subtitle="Volamp Elektrikals is the authorized distributor for eight premium wire, cable and switchgear brands. Trusted by electricians and contractors across Ahmedabad."
+        title="Fictional electrical brands, shown in the prototype."
+        subtitle="DemoVolt Electricals uses eight invented wire, cable and switchgear brands to demonstrate the catalogue experience."
       />
 
       <Section>

@@ -73,8 +73,8 @@ export default function Contact() {
                   <p className="mt-1 text-foreground/70">
                     A member of our team will reply during business hours. For
                     urgent quotes, call{" "}
-                    <a href="tel:+919512355502" className="underline font-bold">
-                      +91 95123 55502
+                    <a href="#" className="underline font-bold">
+                      XX
                     </a>
                     .
                   </p>
@@ -128,7 +128,7 @@ export default function Contact() {
                       >
                         Privacy Policy
                       </a>{" "}
-                      and consent to Volamp Elektrikals contacting me about
+                      and consent to DemoVolt Electricals contacting me about
                       this enquiry.
                     </span>
                   </label>
@@ -152,46 +152,44 @@ export default function Contact() {
             <div className="space-y-3">
             <ContactCard icon={Phone} title="Call">
               <a
-                href="tel:+919512355502"
+                href="#"
                 className="block hover:text-[color:var(--orange)] transition-colors"
               >
-                +91 95123 55502
+                XX
               </a>
               <a
-                href="tel:+917383428797"
+                href="#"
                 className="block hover:text-[color:var(--orange)] transition-colors"
               >
-                +91 73834 28797
+                XX
               </a>
             </ContactCard>
             <ContactCard icon={MessageCircle} title="WhatsApp">
               <a
-                href="https://wa.me/919512355502"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-[color:var(--orange)] transition-colors"
               >
-                Chat with us on +91 95123 55502
+                Chat with us on XX
               </a>
             </ContactCard>
             <ContactCard icon={Mail} title="Email">
               <a
-                href="mailto:info@volampelektrikals.com"
+                href="#"
                 className="hover:text-[color:var(--orange)] transition-colors"
               >
-                info@volampelektrikals.com
+                XX
               </a>
             </ContactCard>
-            <ContactCard icon={MapPin} title="Khadia — Retail counter">
+            <ContactCard icon={MapPin} title="XX">
               <p>
-                1753, Dhobi's Pole, Sir Chinubhai Road, Khadia, Ahmedabad,
-                Gujarat 380001
+                XX
               </p>
             </ContactCard>
-            <ContactCard icon={MapPin} title="Aslali — Warehouse">
+            <ContactCard icon={MapPin} title="XX">
               <p>
-                Block No. 181, P2 TP No. 431, FP No. 33, Opp. Hiramani Logistic
-                Park, Aslali, Ahmedabad 382427
+                XX
               </p>
             </ContactCard>
             <ContactCard icon={Clock} title="Business hours">
@@ -210,11 +208,11 @@ export default function Contact() {
       <div className="border-t bg-card">
         <Section className="!py-10">
           <Eyebrow>Find us</Eyebrow>
-          <H2>Khadia, Ahmedabad.</H2>
+          <H2>Demo City.</H2>
           <div className="mt-4 overflow-hidden rounded-2xl border border-[color:var(--frame)]/40 aspect-[16/7]">
             <iframe
-              title="Volamp Elektrikals map"
-              src="https://www.google.com/maps?q=Khadia,+Ahmedabad,+Gujarat+380001&output=embed"
+              title="DemoVolt prototype map"
+              src="https://www.google.com/maps?q=Demo+City&output=embed"
               width="100%"
               height="100%"
               loading="lazy"

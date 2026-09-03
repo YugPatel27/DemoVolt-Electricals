@@ -5,8 +5,8 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
- * Volamp Elektrikals design system.
- * Palette derived from the Volamp logo: maroon + orange (gold removed per brief).
+ * DemoVolt Electricals prototype design system.
+ * Palette derived from the demo logo: maroon + orange.
  * Fonts loaded via <link> in __root.tsx: Playfair Display, Inter.
  */
 

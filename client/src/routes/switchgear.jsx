@@ -23,7 +23,7 @@ export default function Switchgear() {
       <PageHero
         eyebrow="Division 02 — Switchgear & Accessories"
         title="Protection, distribution and control — from trusted brands."
-        subtitle="A full-range switchgear counter with MCBs, MCCBs, RCCBs, DBs, contactors, industrial sockets and modular wiring devices from Hager, Schneider Electric, Legrand and L&T."
+        subtitle="A fictional switchgear catalogue with MCBs, MCCBs, RCCBs, DBs, contactors, industrial sockets and modular wiring devices from demo brands."
       />
 
       <Section className="border-t bg-card">
